@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="ImagenGraf">
+    <file>assets/graph.png</file>
+  </qresource>
+</RCC>
