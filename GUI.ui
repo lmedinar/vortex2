@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>748</width>
-    <height>628</height>
+    <width>1203</width>
+    <height>1055</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -707,6 +707,86 @@ font-size: 15pt;</string>
         </item>
        </layout>
       </item>
+      <item>
+       <spacer name="spacerIniciarBottom">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Minimum</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="Line" name="lineLong3">
+        <property name="lineWidth">
+         <number>3</number>
+        </property>
+        <property name="midLineWidth">
+         <number>3</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelSection4">
+        <property name="styleSheet">
+         <string notr="true">font-weight: 900;
+font-size: 15pt;</string>
+        </property>
+        <property name="text">
+         <string>Notas del experimento (bitácora digital):</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="layoutSubirBitacora">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonBitacora">
+          <property name="text">
+           <string>Subir a bitácora</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
      </layout>
     </item>
    </layout>
@@ -716,8 +796,8 @@ font-size: 15pt;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>748</width>
-     <height>22</height>
+     <width>1203</width>
+     <height>32</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuA_cerca_de">
